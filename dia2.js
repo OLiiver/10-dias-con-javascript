@@ -1,9 +1,10 @@
+/*
 document.write('<h1>10 Dias con <i>javaScript</i></h1>');
 document.write('<p>Este proyecto le quiero hacer un seguimiento para el futuro y si no bueno quedara como algo marcado y para eso es genial asi a darle</p>');
 document.write('<p class="nota">Advertencia puede que mas adelante esto necesite una edicion</p>');
 document.write('<br>');
 document.write('**   --   **    **   --   **    **   --   **    **   --   **    **   --   **    **   --   **    **   --   **     ');document.write('<br> <br><br>');
-/*
+
 5.4 Se debe desarrollar un programa que pida el ingreso del precio de un artículo y la cantidad que lleva el cliente.
 Mostrar lo que debe abonar el comprador (Ingresar por teclado un precio sin decimales, es decir un entero: 2, 7, 90 etc.)
 
@@ -170,7 +171,7 @@ Nivel medio:	Porcentaje>=75% y <90%.
 Nivel regular:	Porcentaje>=50% y <75%.
 Fuera de nivel:	Porcentaje<50%.
 
-*/
+
 var nombreDelPostulante = prompt('Nombre del postulante', 'Juan'),
     cantidadPreguntas = prompt('Cantidad de preguntas', '2956'),
     cantidadPreguntasCorrectas = prompt('Preguntas contestadas correctamente', '2955');
@@ -184,7 +185,7 @@ var nombreDelPostulante = prompt('Nombre del postulante', 'Juan'),
     // C = X   //
 
     reglaDeTres = (cantidadPreguntasCorrectas / cantidadPreguntas) * 100 ;
- 
+
     if(reglaDeTres > 90){
       document.write('Nivel superior');
     } else {
@@ -198,38 +199,4 @@ var nombreDelPostulante = prompt('Nombre del postulante', 'Juan'),
         }
       }
     }
-/*
-
-*/
-
-
-/*
-
-*/
-
-/*
-
-*/
-
-
-/*
-
-*/
-
-/*
-
-*/
-
-
-/*
-
-*/
-
-/*
-
-*/
-
-
-/*
-
 */
