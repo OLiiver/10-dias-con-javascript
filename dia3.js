@@ -1,10 +1,10 @@
-document.write('<h1>10 Dias con <i>javaScript</i></h1>');
+/*document.write('<h1>10 Dias con <i>javaScript</i></h1>');
 document.write('<p>Este proyecto le quiero hacer un seguimiento para el futuro y si no bueno quedara como algo marcado y para eso es genial asi a darle</p>');
 document.write('<p class="nota">Advertencia puede que mas adelante esto necesite una edicion</p>');
 document.write('<br>');
 document.write('**   --   **    **   --   **    **   --   **    **   --   **    **   --   **    **   --   **    **   --   **     ');document.write('<br> <br><br>');
 
-/*9. Operadores lógicos && (y) en las estructuras condicionales.
+9. Operadores lógicos && (y) en las estructuras condicionales.
 9.1 Realizar un programa que pida cargar una fecha cualquiera, luego verificar si dicha fecha corresponde a Navidad
 (se debe cargar por separado el dia, el mes y el año)
 
@@ -230,7 +230,7 @@ while (x <= 20) {
   document.write( u + '  <br>')
 }
 
-14.5 Mostrar los múltiplos de 10 hasta el valor 1500. Debe aparecer en pantalla 10 - 20 -30 etc.
+13.5 Mostrar los múltiplos de 10 hasta el valor 1500. Debe aparecer en pantalla 10 - 20 -30 etc.
 
 var x = 0;
 while (x < 1500) {
@@ -302,8 +302,8 @@ document.write('<br>');document.write('<br>');
 document.write('la cantidad de numeros impares es: ' + impar);
 */
 
-/*15 Estructura repetitiva (do/while)
-15.1Realizar un programa que acumule (sume) valores ingresados por teclado hasta ingresa el 9999 (no sumar dicho valor,
+/*14 Estructura repetitiva (do/while)
+14.1Realizar un programa que acumule (sume) valores ingresados por teclado hasta ingresa el 9999 (no sumar dicho valor,
 solamente indica que ha finalizado la carga). Imprimir el valor acumulado e informar si dicho valor es cero,
 mayor a cero o menor a cero.
 
@@ -329,7 +329,7 @@ document.write('<br>');document.write('<br>');
 document.write('La suma de los valores es: ' + acumule);
 document.write('<br>');document.write('<br>');
 
-15.2 En un banco se procesan datos de las cuentas corrientes de sus clientes.
+14.2 En un banco se procesan datos de las cuentas corrientes de sus clientes.
 De cada cuenta corriente se conoce: número de cuenta, nombre del cliente y saldo actual.
 El ingreso de datos debe finalizar al ingresar un valor negativo en el número de cuenta.
 Se pide confeccionar un programa que lea los datos de las cuentas corrientes e informe:
@@ -372,7 +372,7 @@ do {
   x = x + 1;
 } while(x < numCuentas );
 
-15.3 Se realizó un censo provincial y se desea procesar la información obtenida en dicho censo.
+14.3 Se realizó un censo provincial y se desea procesar la información obtenida en dicho censo.
 De cada una de las personas censadas se tiene la siguiente información: número de documento, edad y sexo ('femenino' o 'masculino')
 Se pide confeccionar un programa que lea los datos de cada persona censada
 (para finalizar ingresar el valor cero en el número de documento) e informar:
