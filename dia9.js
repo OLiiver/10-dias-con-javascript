@@ -159,6 +159,113 @@ function pizzas(){
 Se debe mostrar una pregunta y seguidamente un objeto SELECT con las respuestas posibles.
 Al presionar un botón mostrar la cantidad de respuestas correctas e incorrectas
 (Disponer 4 preguntas y sus respectivos controles SELECT)
+
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+function preguntas(){
+ var p = document.getElementById('primera'),
+     s = document.getElementById('segunda'),
+     t = document.getElementById('tercera'),
+     c = document.getElementById('cuarta'),
+     pr, se, te, cu,
+     correctas, incorrectas;
+
+ pr = p.options[p.selectedIndex].value;
+ se = document.getElementById.value=s.options[s.selectedIndex].value;
+ te = document.getElementById.value=t.options[t.selectedIndex].value;
+ cu = document.getElementById.value=c.options[c.selectedIndex].value;
+
+ p = parseInt(p);
+ s = parseInt(s);
+ t = parseInt(t);
+ c = parseInt(c);
+
+ if(p == 2){
+  correctas++;
+ } else {
+  incorrectas++;
+ }
+
+ if(s == 4){
+  correctas++;
+ } else {
+  incorrectas++;
+ }
+
+ if(t == 3){
+  correctas++;
+ } else {
+  incorrectas++;
+ }
+
+ if(c == 3){
+  correctas++;
+ } else {
+  incorrectas++;
+ }
+
+ document.getElementById('correctas').value=correctas;
+ document.getElementById('incorrectas').value=incorrectas;
+}
+</script>
+
+<h2>Cuestionario de 4 preguntas</h2>
+<form>
+ <label>1. Cual de los siguientes es un lenguaje de programacion</label>
+ <br /><br />
+ <select id="primera">
+  <option value="1">CSS</option>
+  <option value="2">javaScript</option>
+  <option value="3">HTML</option>
+  <option value="4">Exel</option>
+ </select>
+
+ <br /><br />
+ <label>2. Cuanto es 2 + 2</label>
+ <br /><br />
+ <select id="segunda">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+ </select>
+
+ <br /><br />
+ <label>Cuanto es 12/2</label>
+ <br /><br />
+ <select id="tercera">
+  <option value="1">2</option>
+  <option value="2">4</option>
+  <option value="3">6</option>
+  <option value="4">8</option>
+ </select>
+
+ <br /><br />
+ <label>Cual llego primero el huevo o la gallina</label>
+ <br /><br />
+ <select id="cuarta">
+  <option value="1">su madre</option>
+  <option value="2">su padre</option>
+  <option value="3">gallina</option>
+  <option value="4">huevo</option>
+ </select>
+
+ <br /><br />
+ <label>Repuestas correctas</label>
+ <input type="text" id="correctas">
+ <br /><br />
+ <label>Respuestas incorrectas</label>
+ <input type="text" id="incorrectas">
+</form>
+
+</body>
+</html>
+
+
 */
 /*
 
