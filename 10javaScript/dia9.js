@@ -1,10 +1,11 @@
+/*
 document.write('<h1>10 Dias con <i>javaScript</i></h1>');
 document.write('<p>Este proyecto le quiero hacer un seguimiento para el futuro y si no bueno quedara como algo marcado y para eso es genial asi a darle</p>');
 document.write('<p class="nota">Advertencia puede que mas adelante esto necesite una edicion</p>');
 document.write('<br>');
 document.write('**   --   **    **   --   **    **   --   **    **   --   **    **   --   **    **   --   **    **   --   **     ');document.write('<br> <br><br>');
 
-/*27. Control SELECT
+27. Control SELECT
 27.1 Confeccionar una página que muestre un objeto SELECT con distintos tipos de pizzas
 (Jamón y Queso, Muzzarella, Morrones). Al seleccionar una, mostrar en un objeto de tipo TEXT el precio de la misma.
 
@@ -43,9 +44,9 @@ Al presionar un botón "Calcular" mostrar el presupuesto en un objeto de tipo TE
       discoDuro = document.getElementById('discoDuro'),
       vp, vm, vd, total;
 
-  vp = document.getElementById.value=procesador.options[procesador.selectedIndex].value;
-  vm = document.getElementById.value=monitor.options[monitor.selectedIndex].value;
-  vd = document.getElementById.value=discoDuro.options[discoDuro.selectedIndex].value;
+  vp = procesador.options[procesador.selectedIndex].value;
+  vm = monitor.options[monitor.selectedIndex].value;
+  vd = discoDuro.options[discoDuro.selectedIndex].value;
 
   vp = parseInt(vp);
   vm = parseInt(vm);
@@ -166,43 +167,44 @@ Al presionar un botón mostrar la cantidad de respuestas correctas e incorrectas
 <body>
 
 <script type="text/javascript">
+
 function preguntas(){
  var p = document.getElementById('primera'),
      s = document.getElementById('segunda'),
      t = document.getElementById('tercera'),
      c = document.getElementById('cuarta'),
      pr, se, te, cu,
-     correctas, incorrectas;
+     correctas = 0, incorrectas = 0;
 
  pr = p.options[p.selectedIndex].value;
- se = document.getElementById.value=s.options[s.selectedIndex].value;
- te = document.getElementById.value=t.options[t.selectedIndex].value;
- cu = document.getElementById.value=c.options[c.selectedIndex].value;
+ se = s.options[s.selectedIndex].value;
+ te = t.options[t.selectedIndex].value;
+ cu = c.options[c.selectedIndex].value;
 
- p = parseInt(p);
- s = parseInt(s);
- t = parseInt(t);
- c = parseInt(c);
+ pr = parseInt(pr);
+ se = parseInt(se);
+ te = parseInt(te);
+ cu = parseInt(cu);
 
- if(p == 2){
+ if(pr == 2){
   correctas++;
  } else {
   incorrectas++;
  }
 
- if(s == 4){
+ if(se == 4){
   correctas++;
  } else {
   incorrectas++;
  }
 
- if(t == 3){
+ if(te == 3){
   correctas++;
  } else {
   incorrectas++;
  }
 
- if(c == 3){
+ if(cu == 3){
   correctas++;
  } else {
   incorrectas++;
@@ -211,6 +213,7 @@ function preguntas(){
  document.getElementById('correctas').value=correctas;
  document.getElementById('incorrectas').value=incorrectas;
 }
+
 </script>
 
 <h2>Cuestionario de 4 preguntas</h2>
@@ -253,7 +256,8 @@ function preguntas(){
   <option value="3">gallina</option>
   <option value="4">huevo</option>
  </select>
-
+ <br /><br />
+ <input type="button" onClick="preguntas()" value="procesar">
  <br /><br />
  <label>Repuestas correctas</label>
  <input type="text" id="correctas">
@@ -264,41 +268,5 @@ function preguntas(){
 
 </body>
 </html>
-
-*/
-/*
-
-*/
-
-/*
-
-*/
-
-/*
-
-*/
-
-
-/*
-
-*/
-
-/*
-
-*/
-
-/*
-
-*/
-
-/*
-
-*/
-
-/*
-
-*/
-
-/*
 
 */
