@@ -99,3 +99,51 @@ document.write('La suma de los dos valores es:'+s.retornarresultado());
 </body>
 </html>
 */
+/*
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+function Suma(valor1, valor2){
+this.valor1 = valor1;
+this.valor2 = valor2;
+this.ingresarValor1 = ingresarValor1;
+this.ingresarValor2 = ingresarValor2;
+this.retornarresultado = retornarresultado;
+}
+
+function ingresarValor1(valor){
+this.valor1 = valor;
+}
+function ingresarValor2(valor){
+this.valor2 = valor;
+}
+function retornarresultado(){
+return this.valor1 + this.valor2;
+}
+</script>
+<script>
+var sum1;
+sum1 = new Suma(12, 12);
+document.write('Primer valor: ' + sum1.valor1);
+document.write('<br>'); document.write('<br>');
+document.write('Primer valor: ' + sum1.valor2);
+document.write('<br>'); document.write('<br>');
+sum1.ingresarValor1(23);
+sum1.ingresarValor2(21);
+document.write('<br>'); document.write('<br>');
+document.write('Primer valor: ' + sum1.valor1);
+document.write('<br>'); document.write('<br>');
+document.write('Primer valor: ' + sum1.valor2);
+document.write('<br>'); document.write('<br>');
+document.write('<br>'); document.write('<br>');
+document.write('La suma de los dos valores es: ' + sum1.retornarresultado());
+
+</script>
+</body>
+</html>
+
+
+*/
