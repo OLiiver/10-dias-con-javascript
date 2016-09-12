@@ -106,7 +106,7 @@ y las funciones:
 imprimir (mostrar el nombre de jugador y los puntos actuales)
 aumentarpuntos (permite incrementar la cantidad de puntos actuales del jugador)
 verificarsigano (mostrar un mensaje si los puntos superan a 1000)
-*/
+
 var participante = {
   nombre = nombre,
   puntos = puntos,
@@ -123,3 +123,4 @@ var participante = {
     }
   }
 }
+*/
