@@ -215,7 +215,7 @@ onload = function() {
 68 Evento: change
 68.1 Confeccionar un formulario que muestre un checkbox que cuando se tilde active un botón
 (el checkbox debe mostrar un mensaje que diga : "Confirma los términos y condiciones?")
-*/
+
 onload = function() {
   document.getElementById('condiciones').addEventListener('change', function() {
     if(this.checked == true){
@@ -225,3 +225,10 @@ onload = function() {
     }
   }, false);
 }
+
+<form class="" action="" method="get">
+  <label for="">Confirma los términos y condiciones?</label>
+  <input type="checkbox" name="name" id="condiciones">
+  <input id='submit' type="button" name="name" value="submit">
+</form>
+*/
