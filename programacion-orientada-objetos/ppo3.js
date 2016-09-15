@@ -111,7 +111,6 @@ document.write('Tamaño del vector: ' + vector.length);
 Finalizar la carga al ingresar cero.
 Mostrar por pantalla los sueldos ordenados de mayor a menor.
 
-
 var empleados = [], i=0;
 do {
   sueldo = prompt('Ingrese el sueldo del empleado, ingrese 0 para dejar de ingresar sueldos', '100');
@@ -140,4 +139,3 @@ for (var j=0; j < empleados.length; j++){
 51.1 Crear un vector con una lista de valores.
 Luego borrar las componentes donde hay un 2 y al mismo tiempo insertar dos elementos con el valor 1.
 */
-var
